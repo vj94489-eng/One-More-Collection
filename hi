@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>One More Collection | Clothing & Accessories</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="One More Collection - Designer blouses, bridal wear, lehengas, stitched sarees and custom outfits in Mohpada, Maharashtra.">
+  <style>
+    *{box-sizing:border-box;margin:0;padding:0;font-family:Arial,Helvetica,sans-serif;}
+    body{background:#111;color:#fff;line-height:1.6;}
+    header{background:#f0a520;color:#111;padding:20px;text-align:center;}
+    header h1{font-size:2rem;margin-bottom:4px;}
+    header p{font-size:0.95rem;}
+    nav{background:#222;padding:10px 15px;text-align:center;position:sticky;top:0;z-index:10;}
+    nav a{color:#f0a520;margin:0 10px;text-decoration:none;font-size:0.9rem;}
+    nav a:hover{text-decoration:underline;}
+    .hero{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;padding:40px 15px;background:#000;}
+    .hero-text{flex:1 1 280px;padding:10px 20px;min-width:260px;}
+    .hero-text h2{font-size:1.6rem;margin-bottom:10px;color:#f0a520;}
+    .hero-text p{margin-bottom:8px;font-size:0.95rem;}
+    .hero-img{flex:1 1 260px;text-align:center;padding:10px;}
+    .hero-img img{max-width:100%;border-radius:6px;border:2px solid #f0a520;}
+    section{padding:30px 15px;max-width:1000px;margin:0 auto;}
+    h3{color:#f0a520;margin-bottom:10px;font-size:1.3rem;}
+    .services-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;font-size:0.95rem;}
+    .card{background:#1b1b1b;border-radius:6px;padding:12px 14px;border:1px solid #333;}
+    .card strong{display:block;margin-bottom:4px;color:#f7c45c;}
+    .gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;}
+    .gallery img{width:100%;border-radius:6px;border:2px solid #333;}
+    .contact-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px;font-size:0.95rem;}
+    .contact-item{background:#1b1b1b;border-radius:6px;padding:12px 14px;border:1px solid #333;}
+    a.link{color:#f7c45c;text-decoration:none;}
+    a.link:hover{text-decoration:underline;}
+    footer{background:#000;text-align:center;padding:15px;font-size:0.8rem;color:#aaa;margin-top:10px;}
+    @media(max-width:600px){
+      header h1{font-size:1.6rem;}
+      .hero{padding:25px 10px;}
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>One More Collection</h1>
+  <p>Clothing &amp; Accessories • A Designer House For All Your Customized Stitching Needs</p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#gallery">Blouse Designs</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero" id="about">
+  <div class="hero-text">
+    <h2>Designer Blouses & Bridal Wear</h2>
+    <p>One More Collection offers customized designer blouses, bridal outfits and Indian traditional wear stitched to your perfect fit in Mohpada, Maharashtra.</p>
+    <p>From everyday saree blouses to heavy bridal lehengas, each piece is carefully cut, padded and finished to enhance your look and comfort.</p>
+  </div>
+  <div class="hero-img">
+    <!-- Replace src with your best blouse photo -->
+    <img src="images/black_blouse_front.jpg" alt="Designer padded blouse by One More Collection">
+  </div>
+</section>
+
+<section id="services">
+  <h3>What We Stitch</h3>
+  <div class="services-list">
+    <div class="card">
+      <strong>Bridal & Wedding Wear</strong>
+      <span>Bridal lehengas, saree blouses and trousseau outfits customized for your special day.</span>
+    </div>
+    <div class="card">
+      <strong>Indian Traditional</strong>
+      <span>Classic saree blouses, lehengas and ethnic sets in rich fabrics and embroidery.</span>
+    </div>
+    <div class="card">
+      <strong>Western & Indo‑Western</strong>
+      <span>Gowns, crop tops and fusion blouses that blend Indian work with modern cuts.</span>
+    </div>
+    <div class="card">
+      <strong>Designer Padded Blouses</strong>
+      <span>Ready and made‑to‑measure padded blouses with back‑tie patterns and neck variations.</span>
+    </div>
+    <div class="card">
+      <strong>Designer Stitched Sarees</strong>
+      <span>Pre‑stitched sarees and easy‑to‑drape styles for hassle‑free wearing.</span>
+    </div>
+    <div class="card">
+      <strong>Family Twinning Outfits</strong>
+      <span>Coordinate looks for women, men and kids with matching fabrics and designs.</span>
+    </div>
+    <div class="card">
+      <strong>Alterations & Fitting</strong>
+      <span>Resizing, adjustments and finishing services for your existing outfits.</span>
+    </div>
+  </div>
+</section>
+
+<section id="gallery">
+  <h3>Blouse Design Gallery</h3>
+  <p style="margin-bottom:10px;font-size:0.95rem;">
+    Some of the popular padded and embroidered blouse patterns from One More Collection. Replace the images below with your own photos.
+  </p>
+  <div class="gallery">
+    <!-- Replace image paths with your actual blouse images -->
+    <img src="images/black_blouse_back.jpg" alt="Black printed padded blouse back with dori">
+    <img src="images/black_blouse_flat.jpg" alt="Black printed padded blouse laid flat">
+    <img src="images/white_golden_blouse.jpg" alt="White and golden embroidered bridal blouse">
+    <img src="images/red_golden_blouse.jpg" alt="Red and golden bridal blouse front and back">
+  </div>
+</section>
+
+<section id="contact">
+  <h3>Contact & Location</h3>
+  <div class="contact-grid">
+    <div class="contact-item">
+      <strong>Reach Us</strong>
+      <p>Phone: <a class="link" href="tel:+919930632270">+91 99306 32270</a></p>
+      <p>Email: <a class="link" href="mailto:bhagyashree.kan11@gmail.com">bhagyashree.kan11@gmail.com</a></p>
+      <p>Instagram: <a class="link" href="https://www.instagram.com/bhagyashree.kan11?igsh=MTVkb3FxYW1jMTQxdw==" target="_blank">@bhagyashree.kan11</a></p>
+    </div>
+    <div class="contact-item">
+      <strong>Visit The Studio</strong>
